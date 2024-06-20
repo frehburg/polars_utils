@@ -1,6 +1,6 @@
 [project]
 name = "polars_utils"  # Required
-version = "0.0.2"
+version = "0.0.3"
 description = "A python library to make working with polars easier"
 readme = "README.md"
 requires-python = ">=3.7"

@@ -6,7 +6,7 @@ import polars as pl
 def map_col(
         df: pl.DataFrame,
         map_from: Union[str, List[str]], map_to: Union[str, List[str]],
-        mapping: Union[Dict[Any, Any], Callable[..., Any]],
+        mapping: Union[Dict[Any, Any], Callable],
         default: Any = None) -> pl.DataFrame:
     """
     Map values in column to new values using dictionary or mapping function
